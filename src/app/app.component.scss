@@ -1,22 +1,13 @@
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-    position: relative;
-    min-height: 100%;
-  }
-  body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-  }
-  .main-content{
-      margin-top: 60px;
-  }
-  footer {
-    position: fixed;
-    display: flex;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 30px;
-    text-align: center;
-  }
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.main-content {
+  margin-top: 60px;
+}
